@@ -4,9 +4,12 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
+/**
+ * @author Noah Kilders
+ */
 public class Species {
-    private Genome representative;
-    private List<Genome> genomes;
+    private final Genome representative;
+    private final List<Genome> genomes;
     private double adjustedFitnessSum;
     private Genome mostFitGenome;
 

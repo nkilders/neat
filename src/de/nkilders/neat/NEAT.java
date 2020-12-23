@@ -2,14 +2,17 @@ package de.nkilders.neat;
 
 import java.util.*;
 
+/**
+ * @author Noah Kilders
+ */
 public abstract class NEAT {
     private static final Random RANDOM = new Random();
 
-    private Genome startGenome;
-    private int populationSize;
+    private final Genome startGenome;
+    private final int populationSize;
     private Genome mostFitGenome;
-    private List<Genome> genomes;
-    private List<Species> species;
+    private final List<Genome> genomes;
+    private final List<Species> species;
     private int generation;
 
     public NEAT(Genome startGenome, int populationSize) {

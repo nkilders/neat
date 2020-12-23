@@ -9,15 +9,18 @@ import java.io.IOException;
 import java.util.*;
 import java.util.List;
 
+/**
+ * @author Noah Kilders
+ */
 public class Genome {
     private static final Random RANDOM = new Random();
 
     // <Neuron-ID, Neuron>
-    private Map<Integer, Neuron> neurons;
-    private List<Neuron> inputNeurons;
-    private List<Neuron> outputNeurons;
+    private final Map<Integer, Neuron> neurons;
+    private final List<Neuron> inputNeurons;
+    private final List<Neuron> outputNeurons;
     // <Connection-Innovation, ConnectionGene>
-    private Map<Integer, ConnectionGene> connectionGenes;
+    private final Map<Integer, ConnectionGene> connectionGenes;
 
     private double fitness;
 

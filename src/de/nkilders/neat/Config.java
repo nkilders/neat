@@ -1,5 +1,8 @@
 package de.nkilders.neat;
 
+/**
+ * @author Noah Kilders
+ */
 public class Config {
     // Wahrscheinlichkeit für allgemeine Gewichtsmutation
     public static double WEIGHT_MUTATION_CHANCE = 0.80D;

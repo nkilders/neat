@@ -1,11 +1,14 @@
 package de.nkilders.neat;
 
+/**
+ * @author Noah Kilders
+ */
 public class ConnectionGene {
-    private int inputNeuron;
-    private int outputNeuron;
+    private final int inputNeuron;
+    private final int outputNeuron;
     private double weight;
     private boolean expressed;
-    private int innovationNumber;
+    private final int innovationNumber;
 
     public ConnectionGene(int inputNeuronId, int outputNeuronId, double weight, boolean expressed, int innovationNumber) {
         this.inputNeuron = inputNeuronId;

@@ -1,5 +1,8 @@
 package de.nkilders.neat;
 
+/**
+ * @author Noah Kilders
+ */
 public class Counters {
     private static int connectionInnovation = 0;
 

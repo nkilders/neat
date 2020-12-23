@@ -3,12 +3,15 @@ package de.nkilders.neat;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author Noah Kilders
+ */
 public class Neuron {
-    private int id;
-    private NeuronType type;
+    private final int id;
+    private final NeuronType type;
 
-    private List<ConnectionGene> inputConnections;
-    private List<ConnectionGene> outputConnections;
+    private final List<ConnectionGene> inputConnections;
+    private final List<ConnectionGene> outputConnections;
     private double input;
     private int numReceivedInputs;
     private boolean hasFired;
