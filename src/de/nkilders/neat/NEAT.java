@@ -1,4 +1,4 @@
-package neat;
+package de.nkilders.neat;
 
 import java.util.*;
 

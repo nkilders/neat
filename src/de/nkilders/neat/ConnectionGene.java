@@ -1,4 +1,4 @@
-package neat;
+package de.nkilders.neat;
 
 public class ConnectionGene {
     private int inputNeuron;

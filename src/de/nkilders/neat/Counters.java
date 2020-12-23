@@ -1,4 +1,4 @@
-package neat;
+package de.nkilders.neat;
 
 public class Counters {
     private static int connectionInnovation = 0;

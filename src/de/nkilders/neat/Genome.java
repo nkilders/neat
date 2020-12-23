@@ -1,4 +1,4 @@
-package neat;
+package de.nkilders.neat;
 
 import javax.imageio.ImageIO;
 import java.awt.*;
