@@ -1,11 +1,13 @@
 # NEAT
-Implementation of the [NEAT-algorithm](https://en.wikipedia.org/wiki/Neuroevolution_of_augmenting_topologies) in Java for my term paper in high school
+Implementation of the [NEAT-algorithm](https://en.wikipedia.org/wiki/Neuroevolution_of_augmenting_topologies) in Java for my term paper in high school.
+
+How the algorithm works is explained [here](http://nn.cs.utexas.edu/downloads/papers/stanley.ec02.pdf).
 
 ## Example
 ```java
-// define a start genome from which the evolution will begin
+// define a start genome from which the evolution will begin...
 Genome startGenome = new Genome();
-// it owns three input-neurons...
+// ... with three input-neurons...
 startGenome.addNeuron(new Neuron(Neuron.NeuronType.INPUT));
 startGenome.addNeuron(new Neuron(Neuron.NeuronType.INPUT));
 startGenome.addNeuron(new Neuron(Neuron.NeuronType.INPUT));
